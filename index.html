@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Calculatrice By Ttatanepvp123</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="system.js" ></script>
+</head>
+<body>
+    <input type="text" class="screen" id="screen" autocomplete="off">
+    <div class="option-line-1 button-option">
+        <button onclick="clearScreen();" id="CE">CE</button>
+        <button onclick="addInScreen('e');" id="E">E</button>
+        <button onclick="addInScreen(' √ ');" id="√">&radic;</button>
+        <button onclick="clearScreen();" id="CE">CE</button>
+    </div>
+    <div class="line-1 button">
+        <button onclick="addInScreen('7');" id="7" class="buttons">7</button>
+        <button onclick="addInScreen('8');" id="8" class="buttons">8</button>
+        <button onclick="addInScreen('9');" id="9" class="buttons">9</button>
+        <button onclick="addInScreen(' / ');" class="buttons" id="/">/</button>
+    </div>
+    <div class="line-2 button">
+        <button onclick="addInScreen('4');"id="4"class="buttons">4</button>
+        <button onclick="addInScreen('5');" id="5"class="buttons">5</button>
+        <button onclick="addInScreen('6');" id="6"class="buttons">6</button>
+        <button onclick="addInScreen(' * ');" class="buttons" id="*">*</button>
+    </div>
+    <div class="line-3 button">
+        <button onclick="addInScreen('1');" id="1" class="buttons">1</button>
+        <button onclick="addInScreen('2');" id="2" class="buttons">2</button>
+        <button onclick="addInScreen('3');"id="3" class="buttons">3</button>
+        <button onclick="addInScreen(' - ');" class="buttons" id="-">-</button>
+    </div>
+    <div class="line-4 button">
+        <button onclick="addInScreen('0');" id="0" class="buttons">0</button>
+        <button onclick="addInScreen('.');" id="." class="buttons">.</button>
+        <button onclick="returner()" id="=" class="buttons">=</button>
+        <button onclick="addInScreen(' + ');" class="buttons" id="+">+</button>
+    </div>
+</body>
+</html>
